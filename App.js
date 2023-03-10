@@ -15,13 +15,13 @@ export default function App() {
       <Text>
           Digite seu Email
         </Text>
-        <TextInput
+        <TextInput style={{backgroundColor: '#89CFF0'}}
         
         />
         <Text>
           Digite sua senha
         </Text>
-        <TextInput
+        <TextInput style={{backgroundColor: '#89CFF0'}}
         
         />
         
@@ -37,8 +37,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    marginBottom: 80,
   },
   logo: {
+    marginTop: 80,
     padding: '5rem' ,
     display: 'flex',
     justifyContent: 'flex-start',
@@ -46,10 +48,11 @@ const styles = StyleSheet.create({
     textAlign: 'flex-start',
   },
   imagemcss: {
+    alignItems: 'center',
+    textAlign: 'center',
+    padding: 10 ,
     position: 'initial' ,
-    width: 100,
-    height: 100,
+    width: 70,
+    height: 70,
   }
 });
-
-
